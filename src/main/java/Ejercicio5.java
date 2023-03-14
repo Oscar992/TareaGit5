@@ -20,7 +20,7 @@ public class Ejercicio5 {
 
     static void imprimirLista(List<Integer> listNum) {
         for (var num : listNum) {
-            System.out.printf(num + " ");
+            System.out.printf("%d ", num);
         }
     }
 }
