@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Ejercicio5 {
 
-    static public int calcularSuma(List<Integer> listNum) {
+    static int calcularSuma(List<Integer> listNum) {
         var total = 0;
         for (var num : listNum) {
             total += num;
@@ -10,7 +10,7 @@ public class Ejercicio5 {
         return total;
     }
 
-    static public int calcularMultiplicacion(List<Integer> listNum) {
+    static int calcularMultiplicacion(List<Integer> listNum) {
         var total = 1;
         for (var num : listNum) {
             total *= num;
