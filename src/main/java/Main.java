@@ -6,8 +6,8 @@ public class Main {
 
         final var listNum = generarLista(Aleatorio.generarRandomInteger(5, 10));
 
-        System.out.printf("Suma: " + Ejercicio5.calcularSuma(listNum));
-        System.out.printf("Multiplicacion: " + Ejercicio5.calcularMultiplicacion(listNum));
+        System.out.printf("Suma: %d%n", Ejercicio5.calcularSuma(listNum));
+        System.out.printf("Multiplicacion: %d%n", Ejercicio5.calcularMultiplicacion(listNum));
 
         Ejercicio5.imprimirLista(listNum);
     }
