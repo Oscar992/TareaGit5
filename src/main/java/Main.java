@@ -4,7 +4,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        var listNum = generarLista(Aleatorio.generarRandomInteger(5, 10));
+        final var listNum = generarLista(Aleatorio.generarRandomInteger(5, 10));
 
         System.out.println("Suma: " + Ejercicio5.calcularSuma(listNum));
         System.out.println("Multiplicacion: " + Ejercicio5.calcularMultiplicacion(listNum));
